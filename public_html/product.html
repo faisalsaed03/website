@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Radio buttons for selecting between hoodie, t-shirt, and all products -->
+<div id="filterOptions" class="product-filter">
+    <label>
+        <input type="radio" name="productType" value="all" checked> All
+    </label>
+    <label>
+        <input type="radio" name="productType" value="hoodie"> Hoodie
+    </label>
+    <label>
+        <input type="radio" name="productType" value="tshirt"> T-Shirt
+    </label>
+</div>
+
+
+<div class="gallery" data-type="hoodie">
+    <a target="_blank" href="images/greyh.jpg">
+        <img src="images/greyh.jpg" alt="hoodie1" width="200">
+    </a>
+    <div class="description">WHITE HOODEI</div>
+    <div class="price">$ 30</div>
+    <button class="addToCart">Add to Cart</button>
+</div>
+
+<div class="gallery" data-type="hoodie">
+    <a target="_blank" href="images/hoodie2.jpg">
+        <img src="images/hoodie2.jpg" alt="hoodie1" width="200">
+    </a>
+    <div class="description">BLACK HOODEI</div>
+    <div class="price">$ 25</div>
+    <button class="addToCart">Add to Cart</button>
+</div>
+
+<div class="gallery" data-type="hoodie">
+    <a target="_blank" href="images/hoodie3.jpg">
+        <img src="images/hoodie3.jpg" alt="hoodie1" width="200">
+    </a>
+    <div class="description">WHITE HOODEI</div>
+    <div class="price">$ 20</div>
+    <button class="addToCart">Add to Cart</button>
+</div>
+
+<div class="gallery" data-type="tshirt">
+    <a target="_blank" href="images/tshirt1.jpg">
+        <img src="images/tshirt1.jpg" alt="tshirt1" width="200">
+    </a>
+    <div class="description">BASIC TSHIRT</div>
+    <div class="price">$ 15</div>
+    <button class="addToCart">Add to Cart</button>
+</div>
+
+<div class="gallery" data-type="tshirt">
+    <a target="_blank" href="images/tshirt2.jpeg">
+        <img src="images/tshirt.jpg" alt="hoodie1" width="200">
+    </a>
+    <div class="description">GREY TSHIRT</div>
+    <div class="price">$ 17</div>
+    <button class="addToCart">Add to Cart</button>
+</div>
+
+<div class="gallery" data-type="tshirt">
+    <a target="_blank" href="images/tshirt3.jpeg">
+        <img src="images/tshirt3.jpeg" alt="hoodie1" width="200">
+    </a>
+    <div class="description">GRAPHIC TSHIRT</div>
+    <div class="price">$ 22</div>
+    <button class="addToCart">Add to Cart</button>
+</div>
+
+<div id="cart">
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items"></ul>
+    <div id="total">Total: $0</div>
+    <button id="checkout">Checkout</button>
+</div>
+
+<script src="newjavascript.js"></script>
+
+</body>
+</html>
